@@ -28,4 +28,4 @@ LICENSE: [MIT](./license.md)
 
 Либо перейти по [ссылке](./index.html).
 
-Ссылка на [сайт]().
+Ссылка на [сайт](https://pand1go.github.io/task_9.11/).
