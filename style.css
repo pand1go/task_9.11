@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: rgb(96,110,140);
+    color: white;
+    text-shadow: .5px .5px 0 black, -.5px -.5px 0 black;
+    font-size: 1.5em;
+    border: none;
+    box-shadow: 7px 14px 30px rgba(0,0,0,0.25), 5px 15px 15px rgba(0,0,0,0.22);
+}
+
+.card-header {
+    background-color: rgb(70, 81, 105);
+    border-bottom: 5px solid rgb(143, 166, 214);
+    text-transform: uppercase;
+    color: rgb(143, 166, 214);
+}
+
+.buttons {
+    margin: 0 20px 20px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button_generate, .button_clear {
+    width: 220px;
+    padding: 5px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    transition: .2s linear;
+    background-color: rgb(106, 90, 205);
+    color: white;
+}
+
+.button_generate:hover, .button_clear:hover {
+    box-shadow: 0 0 0 3px white, 0 0 0 5px black;
+    background-color: rgb(79, 62, 192);
+}
+
+.button_generate:active, .button_clear:active {
+    box-shadow: 0 0 0 3px rgb(106, 90, 205), 0 0 0 7px white;
+    background-color: rgb(14, 41, 75);
+}
+
+.button_generate:focus, .button_clear:focus {
+    outline: none;
+}
+
+.rowOutput {
+    margin: 0 30px;
+    background-color: rgb(143, 166, 214);
+    border: 2px solid white;
+    border-radius: 20px
+}
+
+.textStyle {
+    border-bottom: 2px solid white;
+}
+
+.colOutput {
+    padding: 15px 50px;
+}
+
+.textStyle:hover {
+    cursor: pointer;
+    background-color: rgba(96, 110, 140, 0.3);
+}
